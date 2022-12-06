@@ -1,0 +1,74 @@
+<html>
+	<head>
+		<title>Portal de Matricula ERH</title>
+		<meta http-equiv='Content-Type' content='text/html, charset=UTF-8'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" href="erh.css?v1"> 
+ 		<script src="erh.js?v1"></script> 
+	</head>
+	
+	<body>
+		<div id="oInfo">
+			<div id="barra">
+				<p class="title"><b>DESARROLLOS INTEGRALES VC</b></p>
+				<p class="letras_barra">infovisualcontrol@gmail.com</p>
+				
+			</div>
+			<p class="info_letras">
+				Gracias por su interes esta es una sencilla apliacion <br>
+				para ayudar en tiempos de pandemia.. pero si le interesa <br>
+				Ponemos a su disposicion nuestros servicios y aplicativos <br><br>
+				<b>1)- Servicios Contables </b><br>
+				<b>2)- Sistemas de Facturacion e Inventario </b><br>
+				<b>2)- Desarrollo de Sistemas Personalizados </b><br>
+				<br>
+				Visite nuestro sitio web para contactarnos precione  </b> 
+				<a href="http://visualcontrol.infinityfreeapp.com" target="_blank" id="acerca1" name="acerca">aqui</a>
+			</p>
+				<input type="button" id="quit" name="quit" value="Salir" title="Cerrar ventana de Acerca de">
+		</div>
+		<form method="post" action="matricular.php" id="matricula" name="matricula">
+			<h3 id="caption">Portal de Matrículas</h3>
+			<img src="logo.PNG" id="logo" name="logo">
+			<fieldset>
+				<label>Cédula</label>
+				<input type="text" id="cedula" name="cedula" placeholder="Indique Cédula" autocomplete="off">
+				<br>
+				<label>Nombre</label>
+				<input type="text" id="nombre" name="nombre" placeholder="Digite el nombre" autocomplete="off">
+				<br>
+				<label>Grado</label>
+				<select id="grado" name="grado" title="Indique en que grado matricular al Menor" >
+					<option value = "">Indique el Grado</option>
+					<option value = "01">Primer</option>
+					<option value = "02">Segundo</option>
+					<option value = "03">Tercer</option>
+					<option value = "04">Cuarto</option>
+					<option value = "05">Quinto</option>
+					<option value = "06">Sexto</option>
+				</select>
+				<br>
+				<label>Responsable</label>
+				<input type="text" id="nombre2" name="nombre2" placeholder="Nombre del padre o tutor legal " autocomplete="off">
+				
+				<br>
+				<label>Teléfono</label>
+				<input type="text" id="telefono" name="telefono" placeholder="Teléfono de Contacto" autocomplete="off">
+				
+				<br><br>
+				<input type="button" id="enviar" name="enviar" value="Matricular" title="Precione el Boton para matricular al Menor">
+				
+				<input type="button" id="reporte" name="reporte" value="Listado de Alumnos Matriculados" title="Precione el Boton para generar reporte de alumnos matriculados">
+
+				<input type="button" id="acerca" name="acerca" value="Acerca de" title="Si esta interesado en un programa para su negocio precione aca">
+				
+				<a href="lista_alumnos.php" target="_blank" id="orpt" >Reporte General</a>
+				
+			</fieldset>
+		</form>
+		
+		
+		
+	</body>
+</html>

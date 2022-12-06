@@ -1,0 +1,93 @@
+*{
+	//float:left; 
+}
+fieldset{
+	border:none;
+	float:left; 
+}
+
+#caption{
+	margin: auto 30%;	
+}
+form{
+	float:left; 
+	border:1px solid;
+	height:auto;
+	width:auto;
+	box-shadow:grey 10px 10px 10px;
+	background:white;
+}
+
+img{
+	padding-left:5px;
+	padding-bottom:5px;
+}
+#nombre, #nombre2{
+	width:250px;
+}
+#fondo{
+	position:fixed;
+	float:left;
+	left:0px;
+	top:0px;
+	height:20%;
+
+}
+body{
+	background-color:#212F3D;
+}
+label{
+	display:inline-block;
+	padding:4px;
+	background-color:#212F3D;
+	color:white;
+	width:100px;
+	height:15px;
+	border:solid 1px;
+}
+#oInfo{
+	font-family: arial;
+	position:fixed;
+	display:block;
+S	border:1px solid black;
+	padding:0px;
+	height:auto;
+	width:auto;
+	box-shadow:black 10px 10px 10px;
+	border-radius:10px ;
+	background:#d0cfcf;
+}
+
+.title{
+	color:white;
+	text-shadow:cyan 5px 4px 5px;
+	margin:0px;
+	font-size: 20px
+}
+
+#barra{
+	
+    height:auto;
+    padding-top:20px;
+    padding-left:20px;
+    padding-bottom:5px;
+	background:#212F3D;
+	border-radius:10px 10px 0px 0px ;
+	
+}
+
+.letras_barra{
+	margin:0px;
+	color:#CDDC39;
+}
+	
+	
+.info_letras{
+    padding:10px;
+}
+
+#oInfo input{
+    margin:10px;
+    border-radius:10px ;
+    padding:5px;
+}
